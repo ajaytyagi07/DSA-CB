@@ -20,4 +20,3 @@ public class Strings_Toggle_case{
 		System.out.println(c);
     }
 }
-C
