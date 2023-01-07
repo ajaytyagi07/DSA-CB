@@ -1,14 +1,14 @@
 package Recursion;
 import java.util.Scanner;
 
-public class func {
+public class dec {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		fun(n);
+		dec(n);
 	}
-	public static void fun (int n) {
+	public static void dec (int n) {
 		
 		if (n==0) {
 			
@@ -16,7 +16,7 @@ public class func {
 		}	
 		
 		System.out.println(n);
-		fun(n-1);
+		dec(n-1);
 	}
 	
 	}
